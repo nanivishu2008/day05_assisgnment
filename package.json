@@ -1,0 +1,17 @@
+{
+  "name": "jobtrackr-api",
+  "version": "1.0.0",
+  "description": "JobTrackr REST API built with Node.js and Express",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.0"
+  }
+}
